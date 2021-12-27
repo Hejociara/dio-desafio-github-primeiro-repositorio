@@ -2,4 +2,33 @@
 
 Abra o GitHub e o Gitbash no local da pasta ou pastas que desejas subir para a nuvem. Siga os passos:
 
-1 
+Diigite os comandos: 
+
+1 -  git init  --> enter
+
+2 - git add * --> enter
+
+3 - git commit -m "adicionarUmComentarioEntreAspas" --> enter
+
+4 - git remote add origin AdicionarAChaveCriadaNoGitHub --> enter
+
+5 - git push -u origin master
+
+6 - atualize a página do GitHub no navegador e confira
+
+## OU
+
+Abra o GitHub e o Gitbash no local da pasta ou pastas que desejas subir para a nuvem. Siga os passos:
+
+1 - git commit -m "adicionarUmComentarioEntreAspas" --> enter
+
+2 - git status --> enter
+
+3 - git push origin main 
+
+4 - atualize a página do GitHub no navegador e confira 
+
+​                                                
+
+
+
