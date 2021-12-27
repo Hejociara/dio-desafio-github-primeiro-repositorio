@@ -1,0 +1,5 @@
+## Para empurrar o repositório para o GitHub
+
+Abra o GitHub e o Gitbash no local da pasta ou pastas que desejas subir para a nuvem. Siga os passos:
+
+1 
