@@ -18,6 +18,8 @@ O vetor ou array uni-dimensional é uma variável que armazena várias variávei
 
 É uma estrutura de dados indexada, que pode armazenar uma determinada quantidade de valores do mesmo tipo.
 
+Busca mais lenta, pois precisa passar posição por posição até achar determinado valor.
+
 ### Matriz ou array multi-dimensional é um vetor de vetores.
 
 Uma matriz é um vetor que possui duas ou mais dimensões. 
@@ -104,8 +106,45 @@ FIFO(first in first out) - o primeiro elemento a ser retirado é o primeiro que 
 
 ### Filas
 
-### Árvores
+Admite remoção e inserção de novos elementos.
 
-### Tabelas Hash
+Regra:
+
+O elemento que será removido é o que se encontra há mais tempo na estrutura, ou seja, o primeiro objeto a ser inserido na fila é o primeiro a ser removido. Fifo. 
+
+![image-20220112083143349](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220112083143349.png)
+
+
+
+### Árvore
+
+É uma estrutura de dados que organiza seus elementos de forma hierárquica, onde existe um elemento que fica no topo da árvore, chamado raiz e existe os elementos subordinados a ele, nós ou folhas. Estruturas desse tipo facilitam a busca. 
+
+
+
+### Tabelas Hash - tabela de espalhamento ou dispersão
+
+É uma estrutura de dados especial, que associa chaves de pesquisa a valores em uma estrutura de dados.
+
+É uma generalização da ideia de array, porém, utiliza uma função denominada hashing para espalhar elementos, fazendo com que os mesmos fiquem de forma não ordenada dentro do "array" que define a tabela.
+
+![image-20220112084145373](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220112084145373.png)
+
+Para que haja a pesquisa, já que ele não está de forma ordenada, permite que nós associemos valores a chaves.
+
+Onde valores são as posições ou índice onde o elemento se encontra.
+
+Onde chave é a parte da informação que compõe o elemento a ser manipulado.
+
+Espalhar facilita a busca de dados, pois a partir de uma chave podemos acessar de forma rápida uma posição array.
 
 ### Grafos
+
+São estruturas que permitem programar a relação entre objetos.
+
+Os objetos são vértices ou nós do grafo.
+
+Os relacionamentos são arestas.
+
+![image-20220112084629466](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220112084629466.png)
+
