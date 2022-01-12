@@ -20,13 +20,15 @@ Diigite os comandos:
 
 Abra o GitHub e o Gitbash no local da pasta ou pastas que desejas subir para a nuvem. Siga os passos:
 
-1 - git commit -m "adicionarUmComentarioEntreAspas" --> enter
+1- git add * --> enter
 
-2 - git status --> enter
+2- git commit -m "adicionarUmComentarioEntreAspas" --> enter
 
-3 - git push origin main 
+3 - git status --> enter
 
-4 - atualize a página do GitHub no navegador e confira 
+4 - git push origin main 
+
+54= - atualize a página do GitHub no navegador e confira 
 
 ​                                                
 

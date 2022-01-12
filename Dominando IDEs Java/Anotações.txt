@@ -1,0 +1,21 @@
+### Atalhos
+
+Na Ide Eclipse
+
+ctrl + 3    = abre uma janela onde você pode acrescentar o modo de perspectiva do git, debug, etc.
+
+ctrl + n    = cria um novo projeto 
+
+ctrl + espaço    =  dá opções sobre o que você digitou
+
+f2 em cima da pasta = renomear 
+
+/* = comentar
+
+ctrl + 3 --> constru = cria uma contruction dos atributos criados 
+
+Exemplo:
+
+ctrl + d = apaga a linha
+
+ctrl + 3 --> Tostring =  cria o to String 	

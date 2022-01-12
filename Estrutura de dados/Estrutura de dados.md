@@ -148,3 +148,5 @@ Os relacionamentos são arestas.
 
 ![image-20220112084629466](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220112084629466.png)
 
+Pode ter relacionamento em todas as direções, realizar buscas para frente ou para trás.
+
