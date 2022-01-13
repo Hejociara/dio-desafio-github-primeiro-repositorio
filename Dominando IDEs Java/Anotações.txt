@@ -28,6 +28,16 @@ ctrl + m = expande
 
 ctrl + Shift +F = organizar  
 
-clicando na pasta do nosso projeto, ainda na IDE Eclipse, clique com o botão direito em team >>> share project >>>> create repository
+ctrl + alta + seta p baixo = copia um bloco de texto e cola abaixo
 
-clicando na pasta do nosso projeto, ainda na IDE Eclipse, clique com o botão direito em team >>> share project >>>> commit 
+ctrl + 1 >>> assign statement variables . EX: digitar divisao (a,b);  ctrl + 1 >>> assing statement variables
+
+ctrl + w  = fecha abas da IDE
+
+
+
+Criar repositório do projeto para o Git dentro da IDE eclipse, clique na pasta do nosso projeto, ainda na IDE Eclipse, clique com o botão direito em team >>> share project >>>> create repository
+
+Enviar projeto para o Git dentro da IDE eclipse, clicando na pasta do nosso projeto, ainda na IDE Eclipse, clique com o botão direito em team >>> share project >>>> commit >>> git >>
+
+Commit (entregar) é a instrução que explicamos sobre o código que estamos subindo
