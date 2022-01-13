@@ -19,3 +19,15 @@ Exemplo:
 ctrl + d = apaga a linha
 
 ctrl + 3 --> Tostring =  cria o to String 	
+
+pressionar alt + seta p cima ou p baixo ao selecionar um bloco = Muda o bloco de lugar 
+
+Colocar pontos separando as palavras ao se criar uma classe,  e add um nome em package, faz com que sejam separadas em pastas
+
+ctrl + m = expande 
+
+ctrl + Shift +F = organizar  
+
+clicando na pasta do nosso projeto, ainda na IDE Eclipse, clique com o botão direito em team >>> share project >>>> create repository
+
+clicando na pasta do nosso projeto, ainda na IDE Eclipse, clique com o botão direito em team >>> share project >>>> commit 
