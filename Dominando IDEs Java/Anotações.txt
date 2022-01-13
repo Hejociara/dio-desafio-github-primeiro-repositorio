@@ -34,6 +34,8 @@ ctrl + 1 >>> assign statement variables . EX: digitar divisao (a,b);  ctrl + 1 >
 
 ctrl + w  = fecha abas da IDE
 
+ctrl + shift + w = fecha várias abas ao mesmo tempo
+
 
 
 Criar repositório do projeto para o Git dentro da IDE eclipse, clique na pasta do nosso projeto, ainda na IDE Eclipse, clique com o botão direito em team >>> share project >>>> create repository

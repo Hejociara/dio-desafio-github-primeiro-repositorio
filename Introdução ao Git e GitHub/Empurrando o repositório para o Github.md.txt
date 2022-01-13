@@ -16,7 +16,7 @@ Diigite os comandos:
 
 6 - atualize a página do GitHub no navegador e confira
 
-## OU
+## OU 
 
 Abra o GitHub e o Gitbash no local da pasta ou pastas que desejas subir para a nuvem. Siga os passos:
 
@@ -28,7 +28,7 @@ Abra o GitHub e o Gitbash no local da pasta ou pastas que desejas subir para a n
 
 4 - git push origin main 
 
-54= - atualize a página do GitHub no navegador e confira 
+5 - atualize a página do GitHub no navegador e confira 
 
 ​                                                
 
