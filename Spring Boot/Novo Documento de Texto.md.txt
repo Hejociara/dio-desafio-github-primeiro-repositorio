@@ -1,28 +1,16 @@
-### Spring Boot
+## Spring
 
-É uma framework que ajuda a resolver problemas: 
+Spring  é uma plataforma com diversos recursos para a construção de aplicativos Java, facilitando o desenvolvimento em Java EE com a construção de softwares reduzindo o tempo de desenvolvimento.
 
-* Configurações de beans em arquivos xml;
+Spring Framework
 
-* Dispatcher Servlet e view resolver em web.xml;
 
-* Setup manual de Banco de dados;
 
-* Muito tempo gasto em configuração;
+### Beans
 
-* Perda de foco em valor.
+É um objeto que é instanciado, montado e gerenciado por um container do Spring através de Inversão de Controle (IoC) e injeção de Dependências(DI).
 
-  ****
+![image-20220115142840450](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220115142840450.png)
 
-  Criado pela Spring Source em 2012, facilita setuo de projeto Spring, sem a necessidade de criar arquivos de configuração, ganhando foco em produtividade e maior tempo no desenvolvimento de valor.
 
-  O spring Boot também faz a interpretação de todas as dependências.
 
-  Vantagens:
-
-  * Produtividade: setup simplificado de projeto;
-  * Starters: dependências auto configuráveis;
-
-  * Execução simplificada: sem deploy em servidor externo;
-  * Configuração: arquivo externo para a configuração;
-  * Valor: maior tempo em desenvolvimento. 

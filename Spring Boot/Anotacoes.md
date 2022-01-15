@@ -21,8 +21,15 @@
   Vantagens:
 
   * Produtividade: setup simplificado de projeto;
+  
   * Starters: dependências auto configuráveis;
-
+  
   * Execução simplificada: sem deploy em servidor externo;
+  
   * Configuração: arquivo externo para a configuração;
+  
   * Valor: maior tempo em desenvolvimento. 
+  
+    ****
+  
+    

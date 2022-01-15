@@ -1,0 +1,57 @@
+### Conceito de variáveis
+
+É um espaço da memória do computador, onde se pode guardar valores.
+
+Quando a gente cria uma variável a gente está pedindo ao computador para ele reservar um espaço na memória para lá ele colocar algum dado ou informação.
+
+Existem 4 tipos de variáveis:
+
+Instância: objeto 
+
+Classe: classe
+
+Local: dentro de métodos
+
+Parâmetro: na assinatura do método 
+
+
+
+Padrão de definição:
+
+<visibilidade?><modificador?>tipo de nome<valorInicial?>
+
+visibilidade: public, protected e private
+
+Modificador: static e final
+
+T: Tipo de dado
+
+N: nome que é fornecido a variável
+
+VI: um valor inicial, caso se deseje
+
+
+
+### Regras
+
+* Não devem começar com números;
+
+* Evitar $ e _ 
+
+* São case-sensitive (diferencia maiúsculas de minúsculas);
+
+* Sem espaços;
+
+* Não pode ser a palavra reservada do Java;
+
+  ****
+
+  #### Boa prática
+
+  Sempre começar com letra minúscula;
+
+  Nomes expressivos;
+
+  Notação camelo;
+
+  Quando constante(final)maiúscula e separada por "_";
