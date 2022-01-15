@@ -14,7 +14,9 @@ Características:
 
   
 
-  **********
+  
+
+  
 
   #### Diferenças entre JRE e JDK
 
@@ -25,13 +27,161 @@ Características:
   
 
   #### Tipos de plataformas Java:
-
+  
   * Java SE (Java Standard Edition) - contém as especificações de Java e pode ser implementado por diversas empresas;
   * Java EE (Java Enterprise Editon) - contém todas as especificações do Java SE e um número de programas úteis para que executem em servidores. Renomeada como Jakart EE, em 2019;
   * Java ME (Java Micro Edition) -  contém todas as especificações para dispositivos pequenos como celulares, PDAs e 
 
   
 
+  ## Estrutura básica de uma classe:
   
+  modificador de acesso + palavra reservada + um nome com Início maiúsculo, indicando o mundo real.
+  
+  public class Order {
+  
+  
+  
+  }
+
+## Estrutura com atributos e métodos:
+
+public class Order {
+
+
+
+// atributos:
+
+private final String code;
+
+private final BigDecimal totalValue; 
+
+
+
+//métodos
+
+public BigDecimal caculateFee(){
+
+}
+
+}
+
+ // onde private é o modificador de acesso, final é uma palavra reservada do java, String é otipo de atributo da variável, code é o nome atributo da variável
+
+//no método temos o public(modificador de acesso), BigDecimal (o tipo de retorno, pode ser outra classe, ) + o nome do método (calculateFee)
+
+
+
+****
+
+## Estrutura de condição
+
+if - else
+
+Switch - case
+
+```
+public double calculateFee(){
+    switch (totalValue){
+        case 100: // caso o valor total for 100
+            return totalValue * 0.99;
+        case 200:
+            return totalValue * 1.99;
+        default: // caso não caia em nenhuma dessas condições ele retornará apenas o valor total
+        return totalValue;
+```
+
+
+
+## Estrutura de repetição
+
+É responsável por executar repetitivamente uma instrução ou um bloco de instruções até que uma condição seja satisfeita.
+
+* while
+
+  int i = 0; // (contador)
+
+  while (i < item.length) //  while as i is smaller than list 
+
+  System.out.println(items(i) // will print tge list on the screen
+
+  i++; 
 
   
+
+* do - while
+
+  int i = 0; // (contador)
+
+  do{ //contador "do something while satisfacted a condition" //"this conditions is smaller than size list"
+
+  System.out.println(items(i)) // will print each item list
+
+  i++;
+
+  } while (i < items.lenght);
+
+  
+
+* for 
+
+  for (int i = 0; i < items.lenght; i++); // (contador)
+
+  System.out.println(items(i))
+
+  
+
+* enhanced for
+
+  for (String i : items){ // a cada interação ele vai atribuir até acabar a lista toda
+
+  System.out.println(items(i))
+
+  
+
+  }
+
+  ****
+
+  ## Documentação Java
+
+  // = comentário em linha 
+
+  /**  + */ = comentário em bloco
+
+
+
+### Javadoc
+
+É uma ferramenta para documentação no formato HTML que se baseia nos comentários do código-fonte.
+
+Os comentários precisam conter tags para que a documentação fique legível.
+
+
+
+### Tipos de tags:
+
+@author - especifica o autor da classe ou do método.
+
+@ deprecated - identifica classes ou métodos obsoletos.
+
+@link - possibilita a definição de um link para um outro documento local ou remoto através de uma url.
+
+@param - descreve um parâmetro que será passado a um método.
+
+@return - descreve qual o tipo de retorno de um método.
+
+@see - associa a  outras classes ou métodos.
+
+@since - descreve desde quando uma classe ou métodos foi adicionado.
+
+@throws - descreve os tipos de exceções que podem ser lançadas por métodos. 
+
+@version - descreve a versão da classe ou método.
+
+
+
+
+
+
+
