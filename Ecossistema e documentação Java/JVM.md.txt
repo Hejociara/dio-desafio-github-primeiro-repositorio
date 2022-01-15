@@ -1,0 +1,37 @@
+JVM(Java Virtual Machine) é uma máquina virtual responsável pela tradução de Byte Codes oriundos do compilador Javac(Java Compiler) em código de máquina de cada sistema operacional.
+
+Características:
+
+* Execução de pilhas
+
+* Gerenciamento de memória
+
+* Gerenciamento de threads
+
+* Otimização de código (Compilação JIT - Just In Time)
+
+* Garbage Collector (GC) - limpeza da memória suja.
+
+  
+
+  **********
+
+  #### Diferenças entre JRE e JDK
+
+  * JRE(Java RunTime Environment) - responsável por executar os programas em Java.
+
+  * JDK(Java Development Kit) - utilitários que permite o desenvolvimento de programas em Java. Já possui a JVM para executar os programas.
+
+  
+
+  #### Tipos de plataformas Java:
+
+  * Java SE (Java Standard Edition) - contém as especificações de Java e pode ser implementado por diversas empresas;
+  * Java EE (Java Enterprise Editon) - contém todas as especificações do Java SE e um número de programas úteis para que executem em servidores. Renomeada como Jakart EE, em 2019;
+  * Java ME (Java Micro Edition) -  contém todas as especificações para dispositivos pequenos como celulares, PDAs e 
+
+  
+
+  
+
+  
