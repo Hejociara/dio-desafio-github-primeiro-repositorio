@@ -1,0 +1,34 @@
+### Método
+
+É uma porção de código (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feito uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.
+
+Todo método deve ser criado dentro de uma classe. Não funciona por si só, ele precisa chamar um método. Ele defini a execução para funcionar.
+
+
+
+### Padrão de definição
+
+<?visibiidade?> <?tipo?><?modificador?>retorno nome (<?parâmetros>)<?exceções?>corpo
+
+o que está entre interrogações é opcional. De acordo com nossas necessidades podemos usá-los ou não.
+
+![image-20220116114150937](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220116114150937.png)
+
+
+
+void = o método não retorna nada.
+
+corpo é o que está entre {...}, 
+
+parâmetro ();
+
+
+
+Assinatura é a forma de identificar unicamente o método.
+
+* Ass = nome + parâmetros
+  * Método: public double calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3)
+  * Assinatura: calcular TotalVenda(double precoItem1, double precoItem2, double precoItem3)
+
+
+
