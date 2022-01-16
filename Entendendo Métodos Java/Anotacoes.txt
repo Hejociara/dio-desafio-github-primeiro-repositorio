@@ -32,3 +32,43 @@ Assinatura é a forma de identificar unicamente o método.
 
 
 
+### Sobrecargas
+
+É a capacidade de definir métodos para diferentes contextos, mas preservando seu nome. 
+
+Mantém o nome e substitui os parâmetros.
+
+Mudar a lista de parâmetros e manteve-se o nome do método, é criada uma sobrecarga.
+
+![image-20220116143640951](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220116143640951.png)
+
+
+
+### Retorno
+
+É uma instrução de interrupção
+
+Simbologia: return é relacionado ao método
+
+Break é mais relacionado a estrutura de laço
+
+
+
+#### Funcionamento:
+
+O método executa seu retorno quando:
+
+* Completa todas suas instruções internas;
+* Chega a uma declaração explicita de retorno;
+* Lança uma exceção.
+
+
+
+O tipo de retorno do método é definido na criação e pode ser um tipo primitivo ou objeto;
+
+O tipo de dado do return deve ser compatível como o do método;
+
+Se o método for sem retorno(void), pode ou não ter um return para encerrar sua execução.
+
+
+
