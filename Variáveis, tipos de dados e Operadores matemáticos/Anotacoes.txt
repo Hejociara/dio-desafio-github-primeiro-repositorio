@@ -44,14 +44,76 @@ VI: um valor inicial, caso se deseje
 
 * Não pode ser a palavra reservada do Java;
 
-  ****
+  
+
+  
 
   #### Boa prática
 
-  Sempre começar com letra minúscula;
+  * Sempre começar com letra minúscula;
 
-  Nomes expressivos;
+    Ex: int quantidadeProduto;
 
-  Notação camelo;
+  * Nomes expressivos;
 
-  Quando constante(final)maiúscula e separada por "_";
+  * Notação camelo;
+
+    Ex: NotacaoCameloEhAssim
+
+  * Quando constante(final)maiúscula e separada por "_";
+
+    Ex: in final NUMERO_TENTATIVAS = 5;
+
+final é uma variável constante
+
+
+
+### Tipos de dados
+
+São valores e consequentemente operações que as variáveis podem assumir e sofrer, respectivamente.
+
+Tipificação:
+
+* Estática(forte) vs Dinâmica(fraco)
+
+* Primitivo (textual, numeral, lógico e objeto) vs  Composto
+
+  * Numeral:
+
+    byte -128 até 127 . Ex: byte b = 15;
+
+  ​       Short: -32.768 até 32.767. Ex: short s = -15785;
+
+  ​       int: -2.147.483.648 até 2.147.483.647. Ex: int i = 8515785;
+
+  ​       long - usa-se sempre o L no final.  EX long L1 =  110000320303L;
+
+  ​       float f2 = 10.84f usa-se sempre o f no final. Ex: float f2 = 10.86f;
+
+  ​      double d1 = 85.69; 1 e double d1 = 85.69d; o d no final é opcional
+
+  
+
+  *  Textual:
+
+    char : caractere de 16 bit unicode Ex: char c = 'T'; 
+
+    em char deve-se usar sempre ' '. ou seja, um caractere 
+
+    Ex: char c1 = 'w'
+
+    
+
+    String:(texo) 
+
+    em String deve-se usar a " " duplas.
+
+    String st1 = "Fulano"
+
+    Bollean (false or true). Ex: boolean bo1 = true
+
+
+
+## Operador Aritmético 
+
+São símbolos especiais que são capazes de realizar ações específicas em um, dois, ou mais operandos e, em seguida, retorna um resultado.

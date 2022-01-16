@@ -14,3 +14,15 @@ Spring Framework
 
 
 
+Ciclo de um bean
+
+![image-20220115142909806](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220115142909806.png)
+
+É possível configurar um bean de duas formas, por arquivo XML ou através de anotações.
+
+Em XML deve ser definida a tag <bean> dentro de uma tag principal <beans> passando o path da classe assim o Spring saberá quais classes gerenciar a criação de instâncias e a injeção de dependências.
+
+![image-20220115143237632](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220115143237632.png)
+
+
+
