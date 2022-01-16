@@ -12,7 +12,7 @@ f2 em cima da pasta = renomear
 
 /* = comentar
 
-ctrl + 3 --> constru = cria uma contruction dos atributos criados 
+ctrl + 3 --> constru = cria uma construction dos atributos criados 
 
 Exemplo:
 
@@ -28,7 +28,7 @@ ctrl + m = expande
 
 ctrl + Shift +F = organizar  
 
-ctrl + alta + seta p baixo = copia um bloco de texto e cola abaixo
+ctrl + alt + seta p baixo = copia um bloco de texto e cola abaixo
 
 ctrl + 1 >>> assign statement variables . EX: digitar divisao (a,b);  ctrl + 1 >>> assing statement variables
 

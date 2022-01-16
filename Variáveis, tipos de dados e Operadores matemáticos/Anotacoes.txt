@@ -117,3 +117,47 @@ Tipificação:
 ## Operador Aritmético 
 
 São símbolos especiais que são capazes de realizar ações específicas em um, dois, ou mais operandos e, em seguida, retorna um resultado.
+
+Tipos:
+
+* Pós fixado: exp++ ou exp-- (exp = expressão)
+
+  * Ex: int j = k--; (j receberia o k para depois modificá-lo); que é o mesmo que k = k-1;
+
+* prefixado: ++exp ou --exp
+
+  * int i = ++k; que é o mesmo que i = k +1;
+
+* aritmético: +,-,*,/ e % (%= mode)
+
+  * int f = 5 + 3;
+
+* atribuição: =, +=, -=,/= e %=
+
+  * i += 5; é o mesmo que i = i +5;
+
+  ****
+
+  
+
+  ### Prioridade de execução
+
+  ![image-20220116110143921](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220116110143921.png)
+
+  
+
+  ## Conversões Casting
+
+  É a transformação de uma de uma determinada variável de tipo menos específico para um tipo mais específico ou vice-versa.
+
+  Pode promover ou rebaixamento para uma outra representação de tipo de armazenamento.
+
+Existem 2 tipos de casting:
+
+* Upcast(implícito) - promoção de um tipo de dado
+
+* Downcast(explícito) - rebaixamento de um tipo 
+
+  ![image-20220116112046253](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220116112046253.png)
+
+  
