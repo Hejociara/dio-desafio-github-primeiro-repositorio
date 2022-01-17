@@ -1,0 +1,120 @@
+### Operadores Relacionais 
+
+São símbolos especiais que são capazes de realizar comparações entre determinados operandos e em seguida , retornar um resultado.
+
+
+
+Tipos:
+
+Similaridade: 
+
+* Igualdade == determina se um operando é igual ao outro;
+* Diferença != determina se um operando não é igual ao outro;
+
+Tamanho: maior, maior igual, menor, menor igual
+
+= é atribuição
+
+Maior Igual: >
+
+Maior >=
+
+Menor <
+
+Menor Igual <=
+
+
+
+### Operadores Lógicos
+
+São símbolos especiais que são capazes de realizar comparações çógicas entre operando lógicos ou expressões e em seguida retornar um resultado.
+
+Tipos:
+
+* Conjunção
+
+  * operação lógica que só é verdadeira quando ambos os operandos ou expressões envolvidas são verdade. simbologia && e terminologia: and(e)
+
+    
+
+    Operando, Expressão e Resultado
+
+    ![image-20220117065709394](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117065709394.png)
+
+    
+
+* Disjunção 
+
+  * operação que só é falsa quando ambos os operandos ou expressões envolvidas são falsos. Simbologia ||, terminologia: or
+
+    
+
+* Disjunção exclusiva
+
+  * Operação que só é verdade quando ambos os operandos ou expressões são opostos. Simbologia ^  e terminologia: xor.
+
+    
+
+* Negação
+
+  * Operação que inverte o valor lógico de um operando ou expressão; Simbologia ! e terminologia: inversão 
+
+  
+
+  
+
+  ****
+
+  ### Controle de fluxo
+
+  São estruturas que tem a capacidade de direcionar o fluxo de execução do código.
+
+  
+
+  Tipos:
+
+  * Decisão: if, if-else, if-else-if, switch e operador ternário
+
+    Estrutura que avalia uma condição booleana ou variável para direcionar o fluxo de execução 
+
+  * Repetição: for, while, do while
+  * Interrupção: break, continue e return
+
+  
+
+  
+
+  Boas práticas:
+
+  * Se Switch é para valores exatos e if oara expressões booleanas
+
+  * Evitar usar p default do switch para cases genéricos
+
+  * Evitar o efeito flecha dos itens
+
+  * Evitar muitos if's alinhados
+
+  
+
+  ### Blocos
+
+  É um grupo de 0 ou mais códigos que trabalham em conjunto para executar uma operação.
+
+  
+
+  Tipos:
+
+  * Locais: dentro de métodos;
+  * Estático: dentro de classes;
+  * Instância: dentro de classes;
+
+  
+
+  
+
+  
+
+  
+
+  
+
