@@ -22,7 +22,7 @@ public class Loan {
         return 0.45;
     }
 
-    public static void calculate(double value. int installments) {
+    public static void calculate(double value, int installments) {
 
         if (installments == 2) {
 

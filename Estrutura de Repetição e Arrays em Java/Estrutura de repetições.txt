@@ -1,0 +1,44 @@
+Estrutura de repetição
+
+* Cada repetição é chamada de laço (loop) é um dos conceitos básicos da programação estruturada.
+* Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas condições sejam satisfeitas.
+
+Classificadas em:
+
+* Repetição com teste no início (while);
+* Repetição com teste no final (do-while);
+* Repetição contada (for);
+
+
+
+Comando break é utilizado para terminar de forma abrupta uma repetição.
+
+Quando o comando continue é executado, os comandos restantes da repetição são ignorados e o programa volta a testar novamente ou não.
+
+Continue só pode ser utilizado dentro de uma estrutura de repetição, pouco utilizado.
+
+
+
+O while precisa passar primeiro pela expressão e saber se e true ou false para depois cair na sentença, já o do-while cai direto na sentença para depois cair na expressão ou fim.
+
+For = 
+
+![image-20220117083418951](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117083418951.png)
+
+
+
+## Arrays
+
+É um objeto para armazenar sequencialmente dados do mesmo tipo.
+
+* Permanecem com o mesmo tamanho depois de criados;
+
+![image-20220117084015389](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117084015389.png)
+
+![image-20220117084107382](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117084107382.png)
+
+
+
+
+
+Per
