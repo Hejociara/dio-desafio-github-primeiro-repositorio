@@ -1,0 +1,251 @@
+### POO
+
+Paradigma Estruturado tem uma representação mais simplista
+
+* Foca em operações(funções) e dados;
+* Foca em como fazer;
+
+Paradigma Orientado a Objeto tem uma representação mais realista
+
+* Foca na modelagem de entidades e nas interações entre estas;
+
+* Foca no que fazer;
+
+  
+
+Vantagens do POO:
+
+* Melhor coesão;
+* Melhor acoplamento; 
+* Diminuição do Gap semântico; 
+* Coletor de lixo.
+
+
+
+### Fundamentos
+
+A Orientação a Objetos é um paradigma de análise, projeto e programação de sistemas de software baseados na composição e interação entre diversas unidades de software chamadas de objetos.
+
+
+
+#### Abstração 
+
+Processo pelo qual se isolam características de um objeto, considerando os que tenham em comum certos grupos de objetos.
+
+
+
+#### Reuso 
+
+Capacidade de criar novas unidades de código a partir de outras já existentes.
+
+
+
+#### Encapsulamento
+
+Capacidade de esconder complexidade e proteger dados.
+
+
+
+## A ESTRUTURA
+
+
+
+### Classe 
+
+É uma estrutura que abstrai um conjunto de objetos com características similares. Uma classe define o comportamento de seus objetos através de métodos e os estados possíveis destes objetos através de atributos. Em outros termos, uma classe descreve os serviços providos por seus objetos e quais informações eles podem armazenar.
+
+Class carro{
+
+}
+
+
+
+### Atributo
+
+É o elemento de uma classe responsável por definir sua estrutura de dados. O conjunto destes será responsável por representar suas características e fará parte dos objetos criados a partir da classe.
+
+Característica que vamos utilizar para representar o conceito do mundo real que queremos modelar do mundo real.
+
+![image-20220117163633932](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117163633932.png)
+
+
+
+EX:
+
+class Carro{
+
+int portas;
+
+}
+
+
+
+### Método
+
+É uma porção de código que é disponibilizada pela classe. Este é executado quando é feita uma requisição a ele. Um método serve para identificar quais serviços, ações, que a classe oferece. Eles são responsáveis por definir e realizar um determinado comportamento.
+
+Utiliza-se de acordo com a necessidade ou não.
+
+Carro - ligar
+
+venda - calcular total
+
+computador - ligar
+
+comprador -realizar troca
+
+
+
+Criação:
+
+* visibilidade
+
+* Retorno
+
+* Nome
+
+* Parâmetros
+
+  
+
+Dicas:
+
+* Verbos
+
+* Nomes signicativos
+
+* Contexto deve ser considerado
+
+  
+
+classe Carro{
+
+void frear(){
+
+.......
+
+}
+
+}
+
+
+
+#### Métodos especiais
+
+* Construtor, precisa ter o mesmo nome da classe
+
+  class Carro {
+
+  Carro(){
+
+  ......
+
+  }
+
+  }
+
+  * Destrutor, auxilia a destruição de objeto
+
+    classe Carro{
+
+    void finalize(){
+
+    ....
+
+    }
+
+    }
+
+    
+
+### Sobrecarga
+
+Mudar a assinatura de acordo com a necessidade
+
+- Assinatura: nome + parâmetros ()
+
+  EX: m1()
+
+  m1 (int i)
+
+
+
+### Objeto
+
+É a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para esse conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos.
+
+Criação:
+
+Carro carro = **new** Carro();
+
+
+
+### Mensagem
+
+"É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução  de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente à classe, caso a requisição seja a um método estático."
+
+EX:
+
+Carro carro = **new** Carro();carro.<método>;
+Carro.<método>;
+
+**Herança**
+
+É o relacionamento entre classes em que uma classe chamada de subclasse (classe filha, classe derivada) é uma extensão, um subtipo, de outra classe chamada de superclasse (classe pai, classe mãe, classe base). Devido a isto, a subclasse consegue reaproveitar os atributos e métodos dela. Além dos que venham a ser herdados, a subclasse pode definir seus próprios membros.
+
+EX:
+
+**class** A **extends** B { 
+
+...}
+
+
+
+Tipos de herança:
+
+Simples:
+
+A classe filha tem só uma classe mãe
+
+![image-20220117170801175](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117170801175.png)
+
+
+
+Múltipla
+
+\- A classe filha tem uma ou mais classes mães
+
+![image-20220117170825898](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117170825898.png)
+
+![image-20220117170850627](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117170850627.png)
+
+Upcast: 
+
+A a = **new** B();
+
+
+
+Downcast:
+
+B b = (B)**new** A();
+
+
+
+Polimorfismo
+"A mesma ação, se comportando diferente."
+
+![image-20220117171000429](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220117171000429.png)
+
+
+
+**Associação**
+
+"Possibilita um relacionamento entre classes/objetos, no qual estes possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao qual se destinam. Neste tipo de relacionamento, as classes e os objetos interagem entre si para atingir seus objetivos."
+
+Tipos:EstruturalComposição: "Com Parte Todo"Ex: Pessoa e Endereço
+
+**class** Pessoa {
+
+Endereco endereco;}
+
+EstruturalAgregação: "Sem Parte Todo"Ex: Disciplina e Aluno
