@@ -54,6 +54,8 @@ Capacidade de esconder complexidade e proteger dados.
 
 É uma estrutura que abstrai um conjunto de objetos com características similares. Uma classe define o comportamento de seus objetos através de métodos e os estados possíveis destes objetos através de atributos. Em outros termos, uma classe descreve os serviços providos por seus objetos e quais informações eles podem armazenar.
 
+Uma classe pode não possuir atributos, métodos ou ambos
+
 Class carro{
 
 }
@@ -85,6 +87,8 @@ int portas;
 É uma porção de código que é disponibilizada pela classe. Este é executado quando é feita uma requisição a ele. Um método serve para identificar quais serviços, ações, que a classe oferece. Eles são responsáveis por definir e realizar um determinado comportamento.
 
 Utiliza-se de acordo com a necessidade ou não.
+
+Métodos são ações/serviços que as entidades podem fornecer
 
 Carro - ligar
 
@@ -174,6 +178,8 @@ Mudar a assinatura de acordo com a necessidade
 
 É a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para esse conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos.
 
+São instâncias de métodos e atributos.
+
 Criação:
 
 Carro carro = **new** Carro();
@@ -249,3 +255,227 @@ Tipos:EstruturalComposição: "Com Parte Todo"Ex: Pessoa e Endereço
 Endereco endereco;}
 
 EstruturalAgregação: "Sem Parte Todo"Ex: Disciplina e Aluno
+
+
+
+SET e GET
+
+SET serve para colocar um valor no atributo, guardar um valor no atributo
+
+void setCor(String cor){
+
+this.cor = cor;
+
+}
+
+GET 
+
+
+
+### Construtor
+
+construtor deve estar sempre em cima dos atributos.
+
+carro (){                                         // objetos vazios
+
+}
+
+ou 
+
+carro (String cor, String modelo, int capacidadeTanque){
+
+this.cor = cor;                   // atributos
+
+this.modelo = modelo;  // atributos
+
+this.capacidadeTanque * capacidadeTanque;
+
+}
+
+
+
+## Objeto
+
+Um objeto é a representação de um conceito/entidade do mundo real, que pode ser física (bola, carro, árvore etc.) ou conceitual (viagem, estoque, compra etc.) e possui um significado bem definido para um determinado software. Para esse conceito/entidade, deve ser definida inicialmente uma classe a partir da qual posteriormente serão instanciados objetos distintos.
+
+Objetos são instâncias de classe.
+
+Fórmula
+
+Ex: Carro carro = **new** Carro(); // construtor
+
+
+
+## Mensagem
+
+É o processo de ativação de um método de um objeto. Isto ocorre quando uma requisição (chamada) a esse método é realizada, assim disparando a execução  de seu comportamento descrito por sua classe. Pode também ser direcionada diretamente à classe, caso a requisição seja a um método estático.
+
+Mensagem é a solicitação que um método executa e retorna algum valor.
+
+
+
+Fórmula: 
+
+Carro carro = **new** Carro();
+
+carro.<método>;
+Carro.<método>;
+
+
+
+## Relações
+
+
+
+### Herança
+
+Principal função é criar subtítulos 
+
+class A extends B{
+
+...
+
+}
+
+
+
+Tipos de Herança:
+
+Simples:
+
+Classe filha tem só uma classe mãe
+
+
+
+Múltipla:
+
+A classe filha tem uma ou mais mães
+
+
+
+### Upcast
+
+A a = new B();
+
+
+
+### Downcast
+
+É explícito 
+
+B a = (B) new A();
+
+
+
+### Poliformismo
+
+Mesma ação, se comportando diferente.
+
+
+
+extends - herda
+
+class Vendedor extends Funcionario{
+
+}
+
+
+
+### Associação:
+
+"Possibilita um relacionamento entre classes/objetos, no qual estes possam pedir ajuda a outras classes/objetos e representar de forma completa o conceito ao qual se destinam. Neste tipo de relacionamento, as classes e os objetos interagem entre si para atingir seus objetivos."
+
+Pode ocorrer em atributos e métodos.
+
+Tipos:
+
+* Estrutural:
+
+  * Agregação: "Sem Parte Todo"
+
+    Ex: Disciplina e Aluno
+
+    
+
+  * Composição: "Com Parte Todo"
+
+    Ex: Pessoa e Endereço
+
+    **class** Pessoa { 
+
+    Endereco endereco;
+
+    }
+
+* Comportamental:
+
+  * Dependência : "Depende de"
+
+    ![image-20220119102231095](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220119102231095.png)
+
+    **class** Compra {
+
+     ... 
+
+    finalizar(Cupom cupom, ...) {
+
+      ... 
+
+    }
+
+    }
+
+    
+
+### Interface
+
+**interface** A { ...}
+**class** B **implements** A { 
+
+...}
+
+ljkhjkl
+
+
+
+### Visibilidades
+
+### Private:
+
+Só dentro a classe
+
+**private**
+**private int** i;
+
+**private void** do();
+
+
+
+### Protected
+
+Dentro da classe, mesmo pacote e subclasses
+
+**protected**
+**protected int** i;
+
+**protected void** do();
+
+
+
+### Public 
+
+Em qualquer lugar
+
+**public**
+**public int** i;
+
+**public void** do();
+
+
+
+## Pacotes 
+
+Servem para separar classes
+
+
+
