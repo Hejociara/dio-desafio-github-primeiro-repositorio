@@ -1,0 +1,18 @@
+### Abstração
+
+Habilidade de concentrar-se nos aspectos essenciais de um domínio, ignorando características menos importantes ou acidentais.
+
+O que deve e o que não deve ser implementado.
+
+
+
+## Encapsulamento 
+
+Esconder a implementação dos objetos, criando assim interfaces de uso mais concisas e fáceis de usar/entender. Favorecendo principalmente dois aspectos de um sistema: a manutenção e a evolução.
+
+
+
+### Polimorfismo
+
+Capacidade de um objeto poder ser referenciado de várias formas, ou seja, é a capacidade de tratar objetos criados a partir das classes específicas como objetos de uma classe genérica.
+
