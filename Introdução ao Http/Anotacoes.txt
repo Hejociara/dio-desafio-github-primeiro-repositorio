@@ -1,0 +1,46 @@
+Protocolo HTTP
+
+HyperText Transfer Protocol (HTTP)
+
+
+
+![image-20220123122406835](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220123122406835.png)
+
+![image-20220123122450048](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220123122450048.png)
+
+GET : http , etc
+
+
+
+![image-20220123122741818](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220123122741818.png)
+
+![image-20220123122948323](C:\Users\hejoc\AppData\Roaming\Typora\typora-user-images\image-20220123122948323.png)
+
+
+
+                                                                         ###                                                                                   **Criptografia por chave**
+
+*  Assimétrica
+
+  SSl, método seguro
+
+* Simétrica - chave única privada
+
+  Tipos: 
+
+  * Cifra de bloco : SSL, PGP, Ipsec
+
+    N= números de bits
+
+    Ex: N = 64
+
+    
+
+  * Cifra de fluxo: sequência de bits pseudo-aleatório
+
+    Mapeamento 1 para 1 , bit a bit 
+
+javd
+
+
+
