@@ -12,7 +12,7 @@ Diigite os comandos:
 
 4 - git remote add origin AdicionarAChaveCriadaNoGitHub --> enter
 
-5 - git push -u origin master
+5 - git push -u origin main
 
 6 - atualize a página do GitHub no navegador e confira
 
