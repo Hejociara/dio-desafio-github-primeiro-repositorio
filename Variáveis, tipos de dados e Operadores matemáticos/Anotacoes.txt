@@ -1,19 +1,8 @@
 ### Conceito de variáveis
 
-É um espaço da memória do computador, onde se pode guardar valores.
+É um recurso das linguagens de programação utilizado para armazenar valores em memória
 
 Quando a gente cria uma variável a gente está pedindo ao computador para ele reservar um espaço na memória para lá ele colocar algum dado ou informação.
-
-Existem 4 tipos de variáveis:
-
-Instância: objeto 
-
-Classe: classe
-
-Local: dentro de métodos
-
-Parâmetro: na assinatura do método 
-
 
 
 Padrão de definição:
@@ -48,7 +37,7 @@ VI: um valor inicial, caso se deseje
 
   
 
-  #### Boa prática
+  #### Boas práticas
 
   * Sempre começar com letra minúscula;
 
@@ -80,7 +69,7 @@ Tipificação:
 
   * Numeral:
 
-    byte -128 até 127 . Ex: byte b = 15;
+          byte -128 até 127 . Ex: byte b = 15;
 
   ​       Short: -32.768 até 32.767. Ex: short s = -15785;
 
@@ -150,7 +139,7 @@ Tipos:
 
   É a transformação de uma de uma determinada variável de tipo menos específico para um tipo mais específico ou vice-versa.
 
-  Pode promover ou rebaixamento para uma outra representação de tipo de armazenamento.
+  Pode promover ou rebaixar para uma outra representação de tipo de armazenamento.
 
 Existem 2 tipos de casting:
 
